@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+			<style>
+	.button {
+    background-color: #4CAF50; /* Green */
+    border: solid;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+}	
+
+		* {
+					  color:red;
+		}
+		
+		.button5 {
+    background-color: black;
+    color: white;
+    border: 2px solid #555555;
+}
+				  </style>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+		<script src="js/pgb.js"></script>
+		<script src="cordova.js"></script>
+	</head>
+	<body onload="init()">
+		<h1>Hello World!</h1>
+		<p id="dp"></p>
+		<input id="numberTxt" placeholder="Enter mobile number" value="" type="tel" />
+<textarea id="messageTxt" placeholder="Enter message"></textarea>
+<input type="button" onclick="app.sendSms()" value="Send SMS" />
+	</body>
+</html>
