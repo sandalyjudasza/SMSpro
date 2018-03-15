@@ -17,12 +17,12 @@
 
 	<platform name="android">
     <!-- you can use any density that exists in the Android project -->
-    <splash src="res/screen/android/splash-land-splash.png" density="land-splash"/>
+    <splash src="res/screen/android/splash.png" density="splash"/>
 
+</platform>
  
 
-
- 
+<preference name="AutoHideSplashScreen" value="true" />
 <preference name="SplashScreenDelay" value="10000" />
 
 
